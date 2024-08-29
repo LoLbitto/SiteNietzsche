@@ -1,0 +1,57 @@
+header{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: #7589C4;
+    margin: 0;
+    padding: 7px;
+
+    z-index: 10;
+
+    h1 {
+        color:#b7b879;
+        font-family: zaratustra;
+    }
+}
+
+body{
+   margin: 0;
+   background-color: #31415a;
+}
+
+#texto {
+    position: relative;
+    padding: 5px;
+    left: 30%;
+    width: 760px;
+    word-wrap: break-word;
+    p {
+        text-indent: 50px;
+    }
+
+    div {
+        text-align: center;
+    }
+}
+
+#foto {
+    text-align: center;
+    padding-top: 140px;
+    p{
+        margin-top: 0px;
+        color: white;
+    }
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+@font-face {
+    font-family: zaratustra;
+    src: url(fonts/zarathustra-v01.otf);
+}
