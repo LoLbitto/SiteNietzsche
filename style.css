@@ -22,7 +22,7 @@ body{
 #texto {
     position: relative;
     padding: 5px;
-    left: 30%;
+    left: calc(50vw - 760px/2);
     width: 760px;
     word-wrap: break-word;
     p {
@@ -36,11 +36,27 @@ body{
 
 #foto {
     text-align: center;
-    padding-top: 140px;
+    padding-top : 20px;
+
     p{
         margin-top: 0px;
         color: white;
     }
+
+    img{
+        padding-right: 5px;
+        padding-bottom: 5px;    
+
+        border: dashed;
+        border-color: black;
+        border-width: 5px;
+        border-top-width: 0px;
+        border-left-width: 0px;
+    }
+}
+
+#espaco {
+    height: 97px;
 }
 
 p {
