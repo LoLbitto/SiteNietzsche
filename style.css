@@ -14,12 +14,19 @@ header{
     }
 }
 
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: #7589C4;
+    width: 100%;
+}
+
 body{
    margin: 0;
    background-color: #31415a;
 }
 
-#texto {
+.texto {
     position: relative;
     padding: 5px;
     left: calc(50vw - 760px/2);
@@ -34,7 +41,7 @@ body{
     }
 }
 
-#foto {
+.foto {
     text-align: center;
     padding-top : 20px;
 
@@ -42,21 +49,32 @@ body{
         margin-top: 0px;
         color: white;
     }
-
-    img{
-        padding-right: 5px;
-        padding-bottom: 5px;    
-
-        border: dashed;
-        border-color: black;
-        border-width: 5px;
-        border-top-width: 0px;
-        border-left-width: 0px;
-    }
 }
 
 #espaco {
     height: 97px;
+}
+
+.imgBorda {
+    padding-right: 5px;
+    padding-bottom: 5px;    
+
+    border: dashed;
+    border-color: black;
+    border-width: 5px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+}
+
+.frase {
+    font-family: adobe;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.mencao {
+    padding-right: 260px;
+    text-align: center;
 }
 
 p {
@@ -67,7 +85,28 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+a {
+    color: violet;
+}
+
 @font-face {
     font-family: zaratustra;
     src: url(fonts/zarathustra-v01.otf);
+}
+
+@font-face {
+    font-family: adobe;
+    src: url(fonts/AdobeHebrew-Italic.otf);
 }
